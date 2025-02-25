@@ -12,16 +12,16 @@ function App() {
           backgroundPosition: 'center',
         }}></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">John Developer</h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8">Full Stack Developer & Software Engineer</p>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">Tomasz Jąder</h1>
+          <p className="text-xl md:text-2xl text-gray-300 mb-8">Full Stack Developer</p>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-white hover:text-blue-400 transition-colors">
+            <a href="https://github.com/tomaszjader/" className="text-white hover:text-blue-400 transition-colors">
               <Github size={24} />
             </a>
-            <a href="#" className="text-white hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/tomasz-j%C4%85der-a25427200/" className="text-white hover:text-blue-400 transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="text-white hover:text-blue-400 transition-colors">
+            <a href="mailto:tomasz.jader@gmail.com" className="text-white hover:text-blue-400 transition-colors">
               <Mail size={24} />
             </a>
           </div>
@@ -81,6 +81,7 @@ function App() {
               tags={['React', 'Go', 'Docker']}
             />
           </div>
+          <br/>
           <br/>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
