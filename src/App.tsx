@@ -31,27 +31,27 @@ function App() {
       {/* Skills Section */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-16">Technical Expertise</h2>
+          <h2 className="text-3xl font-bold text-center mb-16">Wiedza techniczna</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <SkillCard
               icon={<Code2 className="w-8 h-8" />}
               title="Frontend Development"
-              skills={['React', 'TypeScript', 'Tailwind CSS']}
+              skills={['Angular', 'TypeScript', 'Butstrapp']}
             />
             <SkillCard
               icon={<Terminal className="w-8 h-8" />}
               title="Backend Development"
-              skills={['Node.js', 'Python', 'Go']}
+              skills={['Node.js', 'Python', 'Ruby']}
             />
             <SkillCard
               icon={<Database className="w-8 h-8" />}
               title="Databases"
-              skills={['PostgreSQL', 'MongoDB', 'Redis']}
+              skills={['PostgreSQL']}
             />
             <SkillCard
               icon={<Blocks className="w-8 h-8" />}
               title="DevOps"
-              skills={['Docker', 'AWS', 'CI/CD']}
+              skills={['Terminal', 'Git', 'GitHub']}
             />
           </div>
         </div>
@@ -80,10 +80,6 @@ function App() {
               image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80"
               tags={['React', 'Go', 'Docker']}
             />
-          </div>
-          <br/>
-          <br/>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
               title="E-Commerce Platform"
               description="A full-stack e-commerce solution built with React, Node.js, and PostgreSQL"
@@ -109,16 +105,16 @@ function App() {
       {/* Contact Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Let's Connect</h2>
+          <h2 className="text-3xl font-bold mb-8">Kontakt</h2>
           <p className="text-gray-600 mb-8">
-            I'm always interested in hearing about new projects and opportunities.
+          Zawsze z zainteresowaniem słucham o nowych projektach i możliwościach.
           </p>
           <a
-            href="mailto:contact@johndeveloper.com"
+            href="mailto:tomasz.jader@gmail.com"
             className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
           >
             <Mail className="w-5 h-5 mr-2" />
-            Get in Touch
+            Skontaktuj się
           </a>
         </div>
       </section>
@@ -126,7 +122,7 @@ function App() {
       {/* Footer */}
       <footer className="py-8 bg-gray-900 text-white">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <p>© 2024 John Developer. All rights reserved.</p>
+          <p>© 2025 Tomasz Jąder. All rights reserved.</p>
         </div>
       </footer>
     </div>
