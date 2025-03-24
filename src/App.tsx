@@ -36,7 +36,7 @@ function App() {
             <SkillCard
               icon={<Code2 className="w-8 h-8" />}
               title="Frontend Development"
-              skills={['Angular', 'TypeScript', 'Butstrapp']}
+              skills={['Angular', 'TypeScript', 'Bootstrap']}
             />
             <SkillCard
               icon={<Terminal className="w-8 h-8" />}
