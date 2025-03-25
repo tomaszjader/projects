@@ -4,7 +4,6 @@ import { Github, Linkedin, Mail, ExternalLink, Code2, Terminal, Database, Blocks
 function App() {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
       <header className="relative h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
         <div className="absolute inset-0 opacity-20" style={{
           backgroundImage: "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80')",
@@ -28,7 +27,6 @@ function App() {
         </div>
       </header>
 
-      {/* Skills Section */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-16">Wiedza techniczna</h2>
@@ -57,7 +55,6 @@ function App() {
         </div>
       </section>
 
-      {/* Projects Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-16">Projekty</h2>
@@ -102,7 +99,6 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8">Kontakt</h2>
@@ -119,7 +115,6 @@ function App() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="py-8 bg-gray-900 text-white">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p>© 2025 Tomasz Jąder. All rights reserved.</p>
