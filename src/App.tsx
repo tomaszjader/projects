@@ -1,7 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Code2, Terminal, Database, Blocks } from 'lucide-react';
 
-function App() {
+const App = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="relative h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
@@ -124,7 +124,7 @@ function App() {
   );
 }
 
-function SkillCard({ icon, title, skills }) {
+const SkillCard = ({ icon, title, skills }) => {
   return (
     <div className="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
       <div className="text-blue-600 mb-4">{icon}</div>
@@ -138,7 +138,7 @@ function SkillCard({ icon, title, skills }) {
   );
 }
 
-function ProjectCard({ title, description, image, tags }) {
+const ProjectCard = ({ title, description, image, tags }) => {
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
       <div className="h-48 overflow-hidden">
