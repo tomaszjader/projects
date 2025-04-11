@@ -84,8 +84,8 @@ const App = () => {
               tags={['React', 'Node.js', 'PostgreSQL']}
             />
             <ProjectCard
-              title="AI Chat Application"
-              description="Real-time chat application with AI-powered responses"
+              title="Aplikacja językowa"
+              description="Aplikacja webowa sprawdznia znajomości języka angielskiego."
               image="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80"
               tags={['Python', 'TensorFlow', 'WebSocket']}
             />
